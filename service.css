@@ -1,0 +1,68 @@
+body{
+    min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("man.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    
+}
+.rightmenu{
+    flex: 1;
+    text-align: right;
+    justify-content: space-between;
+}
+.rightmenu ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+    justify-content: space-between;
+}
+.rightmenu ul li {
+    color: rgb(12, 2, 158)  ;
+    text-decoration: none;
+font-size: 15px;
+    
+}
+.rightmenu ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}.rightmenu ul li:hover::after{
+    width: 100%; 
+
+
+}
+.agengy{
+    color: white;
+  font-size: 50px;
+  font-weight: 600px;
+  
+}
+.com{
+    color: red;
+    font-size: 25px;
+}
+.int{
+     color: rgb(12, 247, 44);
+    font-size:25px ;
+}   
+.tofel{
+    color: rgb(10, 214, 27);
+    font-size:25px ;
+}
+.stand{
+color: rgb(12, 214, 28);
+    font-size:25px ;
+}
+
+.college{
+    color: rgb(12, 211, 28);
+    font-size:25px ;
+}

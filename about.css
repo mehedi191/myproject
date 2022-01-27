@@ -1,0 +1,71 @@
+body{
+    min-height: 80vh;
+        width: 100%;
+        background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("Higher-Education-in-Madhya-Pradesh.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    
+}
+.rightmenu{
+    flex: 1;
+    text-align: right;
+    justify-content: space-between;
+}
+.rightmenu ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+    justify-content: space-between;
+}
+.rightmenu ul li {
+    color: rgb(158, 2, 23)  ;
+    text-decoration: none;
+font-size: 15px;
+    
+}
+.rightmenu ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}.rightmenu ul li:hover::after{
+    width: 100%;}
+.text{
+    color: red;
+    fornt-size: 110px:;
+}
+.the{
+    color: rgb(207, 250, 16);
+    height: 40px;
+    font-size: 30px;
+}
+.app{
+    color: rgb(207, 250, 16);
+    height: 40px;
+    font-size: 30px;
+}
+.for{color: rgb(207, 250, 16);
+    height: 40px;
+    font-size: 30px;
+
+}
+.student{
+    color: rgb(250, 16, 16);
+    height: 40px;
+    font-size: 30px; 
+}
+.pay{
+    color: rgb(236, 12, 49);
+    height: 40px;
+    font-size: 30px
+}
+.all{
+    color: rgb(6, 100, 240);
+    font-size: 30px
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                   
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wayconsultency</title>
+    <link rel="stylesheet" href="contract.css">
+
+</head>
+<body>
+    
+    <div class="rightmenu">
+        <ul>
+            <li class="active"><a href="apu.html"> HOME</a> </li>
+            <li> <a href="overview.html"> OVERVIEW </a> </li>
+           
+            <li><a href="service.html"> SERVICE </a></li>
+
+            <li> <a href="about.html">  ABOUT </a> </li>
+
+            <li> <a href="#"> CONTRACT </a> </li>
+
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body
+{min-height: 100vh;
+    width: 100%;
+    background-image:  url("science-1182713_1280-1140x563.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.rightmenu{
+    flex: 1;
+    text-align: right;
+    justify-content: space-between;
+}
+.rightmenu ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+    justify-content: space-between;
+}
+.rightmenu ul li {
+    color: rgb(158, 2, 23)  ;
+    text-decoration: none;
+font-size: 15px;
+    
+}
+.rightmenu ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}.rightmenu ul li:hover::after{
+    width: 100%; 
+.
+    fornt-size: 50px:
+    height: 60px;
+}
+.ami{
+    font-size: 110px;
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    transform: translateY(-80%,-20%);
+}
